@@ -1,0 +1,267 @@
+body{margin:0px; padding:0px; color:white;background: black;}
+h1{
+ font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-weight: 900;font-size:45px;
+ text-transform: uppercase;}
+#name{margin-top:90px;}
+
+#name h1{margin:150px auto 50px auto;width:800px;}
+hr.colored{border-color: #ef4035;width:450px;margin:3px auto;}
+hr.white{border-color:white;}
+p {
+ font-size: 20px;
+ line-height:1.7;
+ width:80%;
+ margin:50px auto;
+}
+.cta-list
+{
+ letter-spacing:1px;
+ text-transform: uppercase;
+ font-size: 15px;
+ width:32%;
+ margin:20px auto;
+}
+.cta-list li{border:1.7px solid white ;padding: 12px 18px;
+ font-weight: 900;margin-left:15px;transition: all .5s ease-in-out;
+}
+.cta-list li:hover{color:red;background:white;}
+.cta-list a{text-decoration: none; color:white;display: inline-block; }
+.arrow img{margin-top:350px;}
+.text h1 {
+ color: #f6ffe0;
+
+ border-bottom:8px solid floralwhite;
+ border-radius: 8px;
+ -webkit-animation-name: bounceIn;
+ font-size: 70px;
+ line-height: 1.4 !important;
+ font-weight:normal;
+ letter-spacing:5px;
+ -webkit-font-smoothing: antialiased !important;
+ -webkit-margin-before: 0.67em;
+ -webkit-margin-after: 0.67em;
+ -webkit-margin-start: 0px;
+ -webkit-margin-end: 0px;
+}
+
+#menu{padding-top: 15px;font-family:Futura, "Trebuchet MS", Arial, sans-serif;letter-spacing: 2px;}
+.header{background: transparent;border-bottom: 1px; color:white;font-size: 15px;font-weight: 500;  }
+#menu a:hover{color:#fec503;background: transparent;}
+#menu li a{color:white;letter-spacing: 3px}
+#menu .active a{background-color:transparent;color:#fec503;}
+.carousel-inner img{width:100%;height:768px !important;}
+.text{margin-bottom:200px;}
+.grid {
+ overflow: hidden;
+ margin:0;
+ padding:0 0 0 0;
+ width: 100%;
+ list-style: none;
+ text-align: center;
+ background: #000;
+}
+.header2{
+ position: relative;
+ width:100%;
+ height:10%;
+}
+.header2 p{
+ font-weight: 700;
+ font-family: cursive;
+ font-stretch: expanded;
+ font-size: 35px;
+ margin:1% 15%;
+ width: 25%;
+
+
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+ width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ -webkit-border-radius: 10px;
+ border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+ -webkit-border-radius: 10px;
+ border-radius: 10px;
+ background: rgba(236,225,226,0.8);
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+ background: rgba(236,225,226,0.2);
+}
+
+#portfolio figure img{
+ min-width: 100%;
+ z-index: 1;
+ position: relative;
+ display: block;
+ min-height: 100%;
+ opacity: 0.8;
+ vertical-align: middle;
+}
+#portfolio figure{
+ position: relative;
+ z-index: 11;
+ display: inline-block;
+ overflow: hidden;
+ width: 33.243%;
+ height: 380px;
+ margin-left:-0.29em;
+ margin-top: -0.38em;
+ background: #3085a3;
+ text-align: center;
+ cursor: pointer;
+}
+#portfolio figure figcaption p {
+ font-size: 25px;
+ width:100%;
+ color:white;
+position:absolute;
+ top:-12.8%;left:0;right:0;
+ z-index: 1111;
+background:rgba(0,0,0,0.3);
+ padding:2% 4%;
+}
+#portfolio.albums figcaption{
+ position: relative;
+ width:100%;
+}
+
+
+#portfolio figure img:hover
+{
+ position:absolute;
+ z-index:957;
+ transform: scale(1.2);
+ -webkit-transition: all .5s ease-in-out;
+}
+
+#contact1{
+ height:668px;
+ background: #fec503;
+ margin-top:5px;
+
+}
+#contact-form{
+ width:60%;
+ float:left;
+ background:  url('../image/contact-form.jpg');
+ height:668px;
+}
+#contact{background: black}
+#contact-details{
+ width:40%;
+float:left;
+margin-top:5%;
+
+
+}
+#contact1{
+ color:black;
+}
+#contact-form p{
+ font-weight: 900;
+ font-size: 25px;
+ text-align: center;
+ margin:10% auto 7% auto;
+ color:white;
+ line-height: 1.5;
+ font-stretch: extra-expanded;
+}
+#contact-form input,#contact-form textarea{
+ background: transparent;
+ font-family: ruluko;
+}
+#contact-form input{
+ width:60%;
+ height:5%;
+ font-weight: 700;
+ font-size: 18px;
+ padding:3% 2%;
+ margin:1.5% auto;
+ border: 2px solid #fec503;
+ border-radius: 2px;
+}
+#contact-form input:focus,#contact-form textarea:focus{
+background: black; color: white;
+ box-shadow: 1px 1px 10px 3px rgba(255,207,3,.6);
+ transition: 0.3s ease-in-out;
+}
+#contact-form textarea{
+ width: 60%;
+ height:17%;
+ font-weight: 700;
+ font-size: 16px;
+ margin-top:1%;
+ padding:3% 2%;
+ border: 2px solid #fec503;
+ border-radius: 2px;
+}
+#contact-form input[type="submit"]{
+ color:whitesmoke;
+ background: black;
+ padding:1% 2%;
+ border: 2px solid #fec503;
+ width:25%;
+ height:7%;
+ border-radius: 2px;
+ font-size: 20px;
+ font-stretch: ultra-expanded;
+ font-weight: 800;
+ margin:4% auto;
+ display: block;
+}
+#contact-form input[type="submit"]:hover{
+
+ color:black;
+ border:2px solid #fec503;
+ transition:all 0.4s ease-in-out;
+ background: #fec503;
+}
+#contact-details img{
+ width:45%;
+
+}
+
+#contact-details p{
+ margin:5% auto;
+}
+#contact-details h1
+{
+ font-size: 30px;
+ text-align: center;
+ margin-top:5%;
+ margin-bottom: 15%;
+ font-weight:800;
+ font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+}
+.cdetails{
+ margin:2% auto;
+ width:80%;
+ color:black;
+ font-weight: 700;
+ font-size: 20px;
+ float:left;
+}
+.contact-icon{
+ position: relative;
+ top:7px; right:1px; bottom: 7px;
+ float:left;
+ width:55px;
+ margin:0 0 0 125px;
+}
+#map{
+height:400px;
+}
+
+
